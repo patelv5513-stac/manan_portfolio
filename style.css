@@ -1,0 +1,65 @@
+body {
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 96%;
+  top: 10px;
+  background-color: green;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: black;
+}
+
+h1 {
+  font-size: 35px;
+  color: black;
+}
+
+ul {
+  font-size: 15px;
+  list-style: none;
+  word-spacing: 10px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: red;
+}
+
+section {
+  min-height: 100vh;
+  padding: 150px 50px;
+  margin-top: 80px;
+}
+
+section h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 20px;
+  line-height: 2;
+}
